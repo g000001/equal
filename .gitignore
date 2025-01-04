@@ -1,0 +1,6 @@
+*~
+*.*~
+*.*fasl
+*.fas
+*.sse2f
+dev*.lisp
