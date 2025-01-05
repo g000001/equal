@@ -8,7 +8,6 @@
    count
    delete
    delete-duplicates
-   directory
    find
    intersection
    make-hash-table
@@ -45,7 +44,6 @@
    count
    delete
    delete-duplicates
-   directory
    find
    intersection
    make-hash-table
