@@ -533,6 +533,9 @@
   (do ((here list (cdr here)))
       ((or (null here) (funcall test item (apply-key key (car here)))) here)))
 
+(deftype member (&rest args)
+  `(cl:member ,@args))
+
 (defun adjoin (item list &key key (test #'equal) test-not)
   "Add ITEM to LIST unless it is already a member."
   (when test-not
